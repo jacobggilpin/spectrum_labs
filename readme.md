@@ -30,15 +30,9 @@ Because physical wooden framing and camera mounting brackets introduce slight an
 ├── Summer_Lidar_Project_Documentation.pdf # Full engineering report, rig diagrams, and summer retrospective
 ├── Summer_Lidar_Project_Documentation.md  # Markdown version of the full technical documentation
 └── data/                                  # Included calibration, synthetic, and real L515 scan datasets
-    ├── example_box_angle_0.ply            # Low-poly synthetic unit cube at 0° (8 vertices, 6 faces)
-    ├── example_box_angle_120.ply          # Low-poly synthetic unit cube rotated +120° (8 vertices, 6 faces)
-    ├── example_box_angle_240.ply          # Low-poly synthetic unit cube rotated +240° / -120° (8 vertices, 6 faces)
     ├── dense_box_angle_0.ply              # High-density calibration box at 0° (98,306 vertices with normals)
     ├── dense_box_angle_120.ply            # High-density calibration box at 120° (98,306 vertices with normals)
     ├── dense_box_angle_240.ply            # High-density calibration box at 240° (98,306 vertices with normals)
-    ├── f1.ply                             # RealSense L515 capture (Low Quality) from Camera 1 (287,160 RGB-D vertices)
-    ├── f2.ply                             # RealSense L515 capture (Low Quality) from Camera 2 (272,949 RGB-D vertices)
-    └── f3.ply                             # RealSense L515 capture (Low Quality) from Camera 3 (266,610 RGB-D vertices)
 ```
 
 ## Included Datasets
